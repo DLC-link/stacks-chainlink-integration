@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2020",
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "declaration": false,
+        "strict": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "outDir": "dist",
+        "noEmit": false,
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*",
+        "chalink-jobs"
+    ]
+}
